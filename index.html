@@ -11,8 +11,6 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
   <link rel="stylesheet" href="styles.css">
 
-
-
 </head>
 <img class="imageBackground" src="images/bg-intro-desktop.png" alt="imageBackground">
 
@@ -24,37 +22,44 @@
       but understanding how developers think is invaluable.</p>
   </div>
 
-<div class="contact">
-  <p id="tryItFree">Try it free for 7 days then $20/mo. thereafter</p>
-    By clicking the button, you are agreeing to our Terms and Services
+  <div class="contact">
+    <p id="tryItFree">Try it free for 7 days then $20/mo. thereafter</p>
 
-  </div>
-  <div class="containerForm">
-    <h2>Formulario de Contacto</h2>
-    <form action="submit_form.php" method="post">
+
+    <div class="containerForm">
+      <h2>Formulario de Contacto</h2>
+      <for action="submit_form.php" method="post">
         <div class="form-group">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" required>
         </div>
         <div class="form-group">
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+          <label for="name">Last Name:</label>
+          <input type="text" id="name" name="name" required>
         </div>
         <div class="form-group">
-            <label for="subject">Asunto:</label>
-            <input type="text" id="subject" name="subject" required>
+          <label for="email">Email Adress:</label>
+          <input type="email" id="email" name="email" required>
         </div>
         <div class="form-group">
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="password">Passwort:</label>
+          <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit">CLAIM YOUR FREE TRIAL</button>
+        <p><span class="highlightgrey">By clicking the button, you are agreeing to our </span><span
+            class="highlight">Terms and Services</span></p>
+    </div>
+
+
+
     </form>
-</div>
+  </div>
+  </div>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Alberto Cabrera</a>.
+      Coded by <a href="#">Alberto Cabrera</a>
     </p>
   </footer>
 </body>
